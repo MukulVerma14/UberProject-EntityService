@@ -13,8 +13,6 @@ import java.util.Date;
 @AllArgsConstructor
 public class Booking extends BaseModel{
 
-
-
     @Enumerated(value = EnumType.STRING)
     private BookingStatus bookingStatus;
 
