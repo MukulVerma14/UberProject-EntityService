@@ -42,6 +42,8 @@ public class Driver extends BaseModel{
 
     private String activeCity;
 
+    private Boolean isAvailable;
+
     @DecimalMin(value = "0.00", message = "Rating must be greater than or equal to 0.00")
     @DecimalMax(value = "5.00", message = "Rating must be less than or equal to 5.00")
     private Double rating;
